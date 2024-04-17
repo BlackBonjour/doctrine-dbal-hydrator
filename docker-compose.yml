@@ -1,0 +1,8 @@
+name: blackbonjour
+
+services:
+  php-fpm:
+    build:
+      context: ./docker
+    volumes:
+      - .:/app

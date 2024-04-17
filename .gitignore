@@ -1,0 +1,6 @@
+# Directories
+.idea
+vendor
+
+# Files
+composer.lock
