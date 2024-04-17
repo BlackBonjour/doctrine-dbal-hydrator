@@ -3,4 +3,5 @@
 vendor
 
 # Files
+.phpunit.result.cache
 composer.lock

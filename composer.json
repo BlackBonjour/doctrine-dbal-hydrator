@@ -7,9 +7,19 @@
     "doctrine/dbal": "^4.0.1",
     "laminas/laminas-hydrator": "^4.15.0"
   },
+  "require-dev": {
+    "phpmd/phpmd": "*",
+    "phpunit/phpunit": "^11.1.2",
+    "squizlabs/php_codesniffer": "*"
+  },
   "autoload": {
     "psr-4": {
       "BlackBonjour\\DbalHydrator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BlackBonjourTest\\DbalHydrator\\": "test"
     }
   }
 }
